@@ -1,0 +1,19 @@
+{
+  "name": "web-authentiation-fingerprint-face",
+  "version": "1.0.0",
+  "description": "Web Authentiation using Fingerprint/Face to unlock",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "@simplewebauthn/server": "^10.0.0",
+    "express": "^4.19.2"
+  }
+}
